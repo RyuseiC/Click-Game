@@ -1,0 +1,21 @@
+body {
+	font-size: 80%;
+}
+
+#clickButton {
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	font-size: 110%;
+}
+
+#timerSelect {
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	font-size: 110%;
+}
+
+#counterDisplay {
+	font-size: 150%;
+}

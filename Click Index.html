@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Click Game</title>
+   <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/fevzicons-1/100/noun_183251-512.png">
+   <link rel="stylesheet" href="Click Style.css">
+</head>
+
+<body>
+   <center>
+      <h1>Select how long you want to be timed, click Start to begin, then click as many times as you possibly can.</h1>
+      <button id="clickButton">Start</button>
+      <select id="timerSelect">
+         <option value="invalid" disabled selected>- Timer -</option>
+         <option value="10">10 seconds</option>
+         <option value="20">20 seconds</option>
+         <option value="30">30 seconds</option>
+      </select>
+      <p id="counterDisplay"></p>
+      <table id="scoreBoard">
+         <tr>SCOREBOARD</tr>
+         <ol>
+
+         </ol>
+         <!-- <tr>TIME</tr>
+         <ol>
+
+         </ol> -->
+      </table>
+   </center>
+   <script src="Click.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
